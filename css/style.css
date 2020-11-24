@@ -1,0 +1,102 @@
+form>span {
+    display:flex;
+   flex-direction:row;
+flex-wrap: wrap;
+justify-content: center;
+    width: 100%;
+}
+form {
+    widows: 100%;;
+}
+
+header {
+    background-color: black;
+    padding:1.2em;
+    color:white;
+    text-align: center;
+}
+.social {
+    background-color:#aaaaaa;
+   border:none; 
+height:5vh;
+width: 100%;
+position:fixed;
+bottom: 0px;
+left:0px;
+display: flex;
+justify-content: center;
+
+}
+.social >div {
+    background-repeat: no-repeat !important;
+    width:5vh; height: 5vh;
+}
+.fb {
+    width:5vh; height: 5vh;
+    background: url('../images/fb.png');
+    background-size:cover;
+}
+.fb:hover {
+    width:5vh; height: 5vh;
+    background: url('../images/fb2.png');
+    background-size:cover;
+}
+.tweeter {
+    width:5vh; height: 5vh;
+   background-image: url("../images/tw1.png");
+   background-size:cover;
+}
+.tweeter:hover {
+    width:5vh; height: 5vh;
+    background-image: url("../images/tw2.png");
+    background-size:cover;
+}
+.yt {
+    width:5vh; height: 5vh;
+   background-image: url("../images/yt2.png");
+   background-size:cover;
+}
+.yt:hover {
+    width:5vh; height: 5vh;
+    background-image: url("../images/yt.png");
+    background-size:cover;
+}
+#vill {
+    margin-left:30%;
+    width:40%;
+}
+#temst{
+    width: 100%;
+    height:100%;
+    margin-left:0px;
+}
+figcaption {
+width:80%;
+margin-left:10%;
+text-align:center !important;
+}
+figcaption h4 {
+    width:100%;
+    margin-left:0px;
+}
+.contact {
+    width:100%;
+    height:15vh;
+display:grid;
+grid-row:10%;
+grid-template-columns: 1fr 1fr 1fr;
+text-align: center;
+
+
+}
+footer {
+    height:15vh;
+    position:fixed;
+    bottom: 0ox;
+    left:0px;
+}
+.contact.p {
+  width:20vw;
+  padding:0px;
+  margin-left:5vw;
+}
