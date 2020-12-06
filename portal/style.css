@@ -4,20 +4,22 @@
 }
 
 
-
+body {
+    background-color:#f0f0ff;
+}
 
 
 
 
 
 .wrapper {
-    width:98%;
+    width:99%;
 
-    margin-top:1%;
-    margin-left:1%;
+    margin-top:0.5%;
+    margin-left:0.5%;
     background-color:#efefef;
-  
- 
+    background-image: url("village.png");
+    background-size:contain;
 }
 
 
@@ -39,6 +41,7 @@ header {
     margin-top:1%;
     margin-left:0.5%;
     width:98%;
+    color:white !important;
     border: solid 2px black;
    
 }
@@ -55,7 +58,7 @@ header {
 
 #images {
     margin-top:1%;
-    margin-left:0.5%;
+    margin-left:1%;
     height: 45%;
     width:98%;
     display:grid;
@@ -82,19 +85,22 @@ header {
 
 
 #articles {
-    
-    margin-top:1%;
-    margin-left:2%;
-   
+
+   background-repeat:no-repeat;
     width:96%;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
    column-gap: 1%;
+   background-size: cover;
+   margin-left:2%;
+   color: white !important;
+
 }
 
 #articles div span {
     border-bottom:dashed 2px #aaaaaa;
     display:block;
+    opacity:1;
 }
 
 #logo {
@@ -110,7 +116,7 @@ header {
 }
 
 a {
-    color:black;
+color:white;
 }
 
 
@@ -125,4 +131,4 @@ a {
         height:20%;
     }
     }
-  
+ 
